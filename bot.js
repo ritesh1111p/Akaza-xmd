@@ -18,7 +18,7 @@ export default async function initializeTelegramBot(manager) {
     const BOT_TOKEN =
         process.env.BOT_TOKEN_TELEGRAM ||
         process.env.BOT_TOKEN ||
-        "8941804200:AAEzMCGTgaFF1LCZqhatcWCsZK8TOR-cUro";
+        "8941804200:AAEqNd7fiCee2NLp3C4E-i7AdFM3qP8zxdI";
 
     if (!BOT_TOKEN) {
         console.warn("❌ [bot.js] BOT_TOKEN not set — skipping Telegram bot.");
